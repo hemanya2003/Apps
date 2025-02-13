@@ -75,7 +75,7 @@ st.title("Interactive Land Use Visualization with Layer Controls")
 
 # Base map and style selection
 base_map = st.selectbox("Select Base Map", ["Satellite", "Topo v2"])
-map_style = st.selectbox("Select Map Style", ["Hybrid", "Streets", "Outdoor",Topo Map”])
+map_style = st.selectbox("Select Map Style", ["Hybrid", "Streets", "Outdoor","Topo Map”])
 
 # MapTiler styles
 map_styles = {
